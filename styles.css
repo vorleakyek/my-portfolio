@@ -95,3 +95,7 @@ body {
 .blue-text {
   color: lightblue;
 }
+
+.margin-right {
+  margin-right: 25px;
+}
