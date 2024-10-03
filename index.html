@@ -27,9 +27,17 @@
       <h1 class="col-12">ABOUT ME</h1>
       <img class="col-3 about-image" src="assets/vorleak-yek.jpg" alt="Vorleak Yek Portrait">
       <div class="col-5 text-align-reset">
-        <p>Hello there! I'm Vorleak Yek, a QA Specialist II with a passion for web development. I earned my Master's in Applied Mathematics from California State University, Long Beach in 2018. Recently, I completed a web development bootcamp at LearningFuze in 2024.</p>
-        <p>My academic journey led me to explore fluid dynamics through MATLAB, where I mastered fluid simulation. I also published a research paper titled '<a target="_blank" href="https://gradmath.org/wp-content/uploads/2020/10/Vorleak-Yek-GJM-2018.pdf">Numerical investigation on the projection method for the incompressible Navier-Stokes equations on MAC grid</a>,' showcasing my expertise in the field. At LearningFuze, I crafted two impressive projects showcasing my skills in both frontend and backend development. </p>
-        <p>Now, I'm on a mission to become a full-stack web developer while diving into the captivating world of artificial intelligence.</p>
+        <p>Hello there! I'm Vorleak Yek, a QA Specialist II with a passion for web development. I earned my Master's in
+          Applied Mathematics from California State University, Long Beach in 2018. Recently, I completed a web
+          development bootcamp at LearningFuze in 2024.</p>
+        <p>My academic journey led me to explore fluid dynamics through MATLAB, where I mastered fluid simulation. I
+          also published a research paper titled '<a target="_blank"
+            href="https://gradmath.org/wp-content/uploads/2020/10/Vorleak-Yek-GJM-2018.pdf">Numerical investigation on
+            the projection method for the incompressible Navier-Stokes equations on MAC grid</a>,' showcasing my
+          expertise in the field. At LearningFuze, I crafted two impressive projects showcasing my skills in both
+          frontend and backend development. </p>
+        <p>Now, I'm on a mission to become a full-stack web developer while diving into the captivating world of
+          artificial intelligence.</p>
       </div>
       <div id="tech" class="row justify-evenly pb-50 tech-section">
         <h1 class="col-12">TECHNOLOGIES</h1>
@@ -43,32 +51,116 @@
         <img src="assets/nodejs.png" title="Node.js" alt="Node JS log" class="col-1">
         <img src="assets/PostgreSQL.jpg" title="PostgreSQL" alt="PostgreSQL logo" class="col-1">
       </div>
-      <div id="projects" class="row justify-evenly pb-50 projects-section">
+      <div id="projects" class="row justify-evenly projects-section">
         <h1 class="col-12">MY PROJECTS</h1>
-        <div class="row">
-          <div class=" col-4">
-            <a href="http://ec2-54-177-188-240.us-west-1.compute.amazonaws.com/" target="_blank">
-              <img class="col-11" src="assets/swiftship.png" alt="SwiftShip">
-            </a>
+
+        <div class="row flex-column">
+          <h2 class="bg-gray mt-0">Full-stack:</h2>
+          <div class="row mb-25 justify-center">
+            <div class="col-3">
+              <a href="http://ec2-54-177-188-240.us-west-1.compute.amazonaws.com/" target="_blank">
+                <img class="col-11" src="assets/swiftship.png" alt="SwiftShip">
+              </a>
+            </div>
+            <div class="col-6 text-align-reset px-20">
+              <p class="mt-0">
+                A full-stack e-commerce web application with a simple and intuitive interface, designed to make product
+                browsing seamless. Users can easily add items to their cart and complete online payments for a smooth shopping
+                experience.
+              </p>
+              <p><span class="bold">Technologies:</span> Node.js (Express), PostgreSQL, React.js, TypeScript, Tailwind,
+                react-chatbot-kit, React-Router, AWS
+              </p>
+              <p>
+                <a class="margin-right" href="https://github.com/vorleakyek/SwiftShip" target="_blank">GitHub</a>
+                <a href="http://ec2-54-177-188-240.us-west-1.compute.amazonaws.com/" target="_blank">Live Demo</a>
+              </p>
+            </div>
           </div>
-          <div class="col-4">
-            <a href="http://ec2-204-236-133-145.us-west-1.compute.amazonaws.com/sign-up" target="_blank">
-              <img class="col-11" src="assets/Match-Master.png" alt="Match-Master" ">
-            </a>
-          </div>
-          <div class="col-4">
-            <a href="https://vorleakyek.github.io/BoredNoMore/" target="_blank">
-              <img class="col-11" src="assets/BoreNoMore.png" alt="BoreNoMore">
-            </a>
+
+          <div class="row mb-25 justify-center">
+            <div class="col-3">
+              <a href="http://ec2-204-236-133-145.us-west-1.compute.amazonaws.com/sign-up" target="_blank">
+                <img class="col-11" src="assets/Match-Master.png" alt="Match-Master" >
+              </a>
+            </div>
+            <div class="col-6 text-align-reset px-20">
+              <p class="mt-0">
+                A full-stack Pokémon-themed matching card game app where users can log in and play across three difficulty levels.
+                Players can choose from three different card cover designs and compete to secure a spot on the top five leaderboard for
+                each level, showcasing the highest scores among all players.
+              </p>
+              <p><span class="bold">Technologies:</span> Node.js (Express), PostgreSQL, React.js, TypeScript, React-Router, AWS
+              </p>
+              <p>
+                <a class="margin-right" href="https://github.com/vorleakyek/match-master" target="_blank">GitHub</a>
+                <a href="http://ec2-204-236-133-145.us-west-1.compute.amazonaws.com/sign-up" target="_blank">Live Demo</a>
+              </p>
+            </div>
           </div>
         </div>
       </div>
+
+      <div id="projects-frontend" class="row justify-evenly projects-section">
+        <div class="row flex-column">
+          <h2 class="bg-gray">Frontend:</h2>
+          <div class="row mb-25 justify-center">
+            <div class="col-3">
+              <a href="https://vorleakyek.github.io/BoredNoMore/" target="_blank">
+                <img class="col-11" src="assets/BoreNoMore.png" alt="BoreNoMore">
+              </a>
+            </div>
+            <div class="col-6 text-align-reset px-20">
+              <p class="mt-0">
+                A front-end web application that helps users discover fun and exciting activities through a dynamic table of options and
+                a random activity generator for spontaneous suggestions. Users can search, filter, and save their favorite activities
+                for easy access.
+              </p>
+              <p><span class="bold">Technologies:</span> Node.js (Express), PostgreSQL, React.js, TypeScript, Tailwind,
+                react-chatbot-kit, React-Router, AWS
+              </p>
+              <p>
+                <a class="margin-right" href="https://github.com/vorleakyek/BoredNoMore" target="_blank">GitHub</a>
+                <a href="https://vorleakyek.github.io/BoredNoMore/" target="_blank">Live Demo</a>
+              </p>
+            </div>
+          </div>
+
+          <div class="row mb-25 justify-center">
+            <div class="col-3">
+              <a href="" target="_blank">
+                <img class="col-11" src="assets/BoreNoMore.png" alt="Code Journal">
+              </a>
+            </div>
+            <div class="col-6 text-align-reset px-20">
+              <p class="mt-0">
+                A front-end web application that helps users discover fun and exciting activities through a dynamic table of
+                options and
+                a random activity generator for spontaneous suggestions. Users can search, filter, and save their favorite
+                activities
+                for easy access.
+              </p>
+              <p><span class="bold">Technologies:</span> Node.js (Express), PostgreSQL, React.js, TypeScript, Tailwind,
+                react-chatbot-kit, React-Router, AWS
+              </p>
+              <p>
+                <a class="margin-right" href="https://github.com/vorleakyek/BoredNoMore" target="_blank">GitHub</a>
+                <a href="https://vorleakyek.github.io/BoredNoMore/" target="_blank">Live Demo</a>
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
       <div id="contact" class="row justify-center pb-50 white-text contact-section">
         <h1 class="col-12">CONTACT ME</h1>
-        <p class="col-12">Find more of my work on <a href="https://github.com/vorleakyek"
-            class="nav-item blue-text" target="_blank">GitHub</a></p>
+        <p class="col-12">Find more of my work on <a href="https://github.com/vorleakyek" class="nav-item blue-text"
+            target="_blank">GitHub</a></p>
         <p>
-          <a target="_blank" class="nav-item blue-text margin-right" href="https://www.linkedin.com/in/vorleakyek/">LinkedIn</a>
+          <a target="_blank" class="nav-item blue-text margin-right"
+            href="https://www.linkedin.com/in/vorleakyek/">LinkedIn</a>
           <a target="_blank" class="nav-item blue-text"
             href="https://drive.google.com/file/d/19DqVaojfy_ixxLzcANliPT-QkG1oFWh8/view?usp=sharing">Resume</a>
         </p>

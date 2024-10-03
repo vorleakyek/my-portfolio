@@ -19,8 +19,16 @@ body {
   color: white;
 }
 
+.bold {
+  font-weight: bold;
+}
+
 .pb-50 {
   padding-bottom: 50px;
+}
+
+.px-20 {
+  padding: 0 20px;
 }
 
 .justify-center {
@@ -33,6 +41,10 @@ body {
 
 .justify-between {
   justify-content: space-between;
+}
+
+.flex-column {
+  flex-direction: column;
 }
 
 .align-center {
@@ -53,7 +65,9 @@ body {
 
 .hero-image {
   background-image: url("assets/lfz-logo.png");
-  background-color: #303b43;
+
+  /* background-color: #303b43; */
+  background-color: #9ed5ff;
   background-position: center;
   background-repeat: no-repeat;
   background-size: auto 80%;
@@ -62,9 +76,12 @@ body {
 
 .student-name {
   font-size: 80px;
-  background-color: #303b43;
+
+  /* background-color: #303b43; */
+  background-color: #9ed5ff;
   border-top: 5px double white;
   border-bottom: 5px double white;
+  color: palegoldenrod;
 }
 
 .about-section {
@@ -81,7 +98,7 @@ body {
 }
 
 .tech-section {
-  background-color: gainsboro;
+  background-color: #fff0d1;
 }
 
 .projects-section {
@@ -96,6 +113,29 @@ body {
   color: lightblue;
 }
 
+.mt-0 {
+  margin-top: 0;
+}
+
+.my-0 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.my-10 {
+  margin: 10px 0;
+}
+
+.mb-25 {
+  margin-bottom: 25px;
+}
+
 .margin-right {
   margin-right: 25px;
+}
+
+.bg-gray {
+  background-color: #81dae3;
+
+  /* background-color: #1cbbb8; */
 }
